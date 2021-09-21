@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt();
+    let count = 1;
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] === ' ' && a[i+1] !== ' ') {
+            count++
+        }
+    }
+    document.write('số từ bạn vừa nhập vào là: ' + count)
+</script>
+</body>
+</html>
